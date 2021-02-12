@@ -30,3 +30,4 @@ cd "$root"
 do "AM202102_B4ML_3.BasesGlobales.do"	
 
 exit, clear
+
