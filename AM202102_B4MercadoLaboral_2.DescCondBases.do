@@ -7,7 +7,7 @@ cls
  
 /**********************************************************************************************************************************
 * Fecha: 				11/febrero/2021
-* Nombre archivo: 		AM202102_4BTML_2.DescCondBases
+* Nombre archivo: 		AM202102_B4ML_2.DescCondBases
 * Autor:          		Azael Mateo		
 * Archivos creados:  
 	- Bases de datos de sitio web INEGI
