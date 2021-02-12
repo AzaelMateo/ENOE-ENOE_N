@@ -28,13 +28,5 @@ cd "$root"
 do "AM202102_B4ML_2.DescCondBases.do"
 cd "$root"
 do "AM202102_B4ML_3.BasesGlobales.do"	
-cd "$root"
-do "AM202102_B4ML_4.PersTransEmpleo.do"
-cd "$root"
-do "AM202102_B4ML_5.PersTransSalud.do"
-cd "$root"
-do "AM202102_B4ML_6.TransCapacitacion.do"
-cd "$root"
-do "AM202102_B4ML_7.MovIngreso.do"
 
 exit, clear
