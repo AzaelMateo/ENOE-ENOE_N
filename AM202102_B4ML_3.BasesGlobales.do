@@ -84,7 +84,8 @@ forvalues i = 6/`anio' {
 				keep if _merge==3
 				*keep cd_a ent con v_sel tipo mes_cal ca n_hog h_mud n_ren   // especificar variables de interes para disminuir la carga del proceso
 				qui merge 1:1 cd_a ent con v_sel tipo mes_cal ca n_hog h_mud n_ren using "$bases/20`i'trim`j'_dta/COE2T`j'`i'.dta"
-				keep if _merge==3	
+				keep if _merge==3
+				*keep cd_a ent con v_sel tipo mes_cal ca n_hog h_mud n_ren   // especificar variables de interes para disminuir la carga del proceso
 			}				
 			else {
 			use "$bases/20`i'trim`j'_dta/SDEMT`j'`i'.dta", clear
